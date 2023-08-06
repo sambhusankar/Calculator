@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Calculator by Sankar</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="calculator">
+  <section class="results">
+    <div class="calculation" id="cal"></div>
+    
+    <div class="output" id="output"></div>
+  </section>
+  
+  <section class="buttons">
+    <button onclick="clearCalc()" class="cl">Ac</button>
+    <button onclick="backspace()" class="cl">←</i></button>
+    <button onclick="toAppend('/')" class="opr">÷</button>
+    <button onclick="toAppend('*')" class="opr">×</button>
+    <button onclick="toAppend('7')">7</button>
+    <button onclick="toAppend('8')">8</button>
+    <button onclick="toAppend('9')">9</button>
+    <button onclick="toAppend('-')" class="opr">-</button>
+    <button onclick="toAppend('4')">4</button>
+    <button onclick="toAppend('5')">5</button>
+    <button onclick="toAppend('6')">6</button>
+    <button onclick="toAppend('+')" class="opr">+</button>
+    <button onclick="toAppend('1')">1</button>
+    <button onclick="toAppend('2')">2</button>
+    <button onclick="toAppend('3')">3</button>
+    <button onclick="showAns()" class="equal">=</button>
+    <button onclick="toAppend('0')" class="zero">0</button>
+    <button onclick="toAppend('.')">.</button> 
+  </section>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
