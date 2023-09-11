@@ -26,6 +26,9 @@
   white-space:nowrap;
   overflow-x:scroll;
 }
+.results .calculation:-webkit-scroll{
+   display:none;
+}
 .results .output{
   color:#c8c9cc;
   font-size:170%;
@@ -34,6 +37,9 @@
   white-space:nowrap;
   overflow-x: scroll;
   vertical-align: bottom;
+}
+.results .output:-webkit-scroll{
+   display:none;
 }
 .buttons{
   display:grid;
