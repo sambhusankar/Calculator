@@ -26,7 +26,7 @@
   white-space:nowrap;
   overflow-x:scroll;
 }
-.results .calculation:-webkit-scroll{
+.results .calculation::-webkit-scrollbar{
    display:none;
 }
 .results .output{
@@ -38,7 +38,7 @@
   overflow-x: scroll;
   vertical-align: bottom;
 }
-.results .output:-webkit-scroll{
+.results .output::-webkit-scrollbar{
    display:none;
 }
 .buttons{
